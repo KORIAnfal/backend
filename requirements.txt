@@ -1,12 +1,14 @@
+
 # Backend Libraries
 Flask==2.2.2
+werkzeug==2.0.3
 flask-cors==5.0.1
-Flask-SQLAlchemy==2.5.1   # If you're using SQLAlchemy for database integration
-flask-migrate==3.1.0      # For database migrations
-Flask-RESTful==0.3.9      # If you're building a RESTful API
-requests==2.28.1          # For making HTTP requests
-python-dotenv==0.21.0     # For loading environment variables
-debugpy==1.6.3            # For debugging during development
+Flask-SQLAlchemy==2.5.1
+flask-migrate==3.1.0
+Flask-RESTful==0.3.9
+requests==2.28.1
+python-dotenv==0.21.0
+debugpy==1.6.3
 
 # Utilities
 attrs==25.3.0
